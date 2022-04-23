@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
+    background-size: contain, contain;
+    background-position:-50px -200px, 800px 200px ;
+    background-repeat: no-repeat, no-repeat;
+    background-color: #19a1adff ;
+}
+.attribution { 
+    font-size: 11px; text-align: center;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+.main{
+    margin: 100px auto;
+    width: 20rem;
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+.main-one{
+    
+    border-radius: 10px;
+    text-align: center;
+}
+.bg-pattern-card{
+    width: 100%;
+    
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    
+}
+.profile{    
+    position: relative;
+    top: -50px;
+}
+.image-vector{
+    border-radius: 50%;
+    border: 3px solid rgb(255, 255, 255);
+}
+.profile-content{
+    margin-top: 40px;
+}
+.profile-content>p{
+    font-family: Verdana;
+    font-size: 20px;
+    display: block;
+}
+.age{
+    font-family: Tahoma;
+    font-weight: lighter;
+    color: #b0b0b2ff;
+}
+.profile-content>span{
+    color: #b0b0b2ff;
+}
+.line{
+    width: 100%;
+    border-bottom: 1px solid black;
+    position: relative;
+    bottom: 25px;
+}
+.profile-item{   
+    margin: 20px;
+    position: relative;
+    bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+p{
+    font-family: monospace;
+    font-size: 20px;
+    font-weight:700;
+}
+.items>span{
+    font-family: monospace;
+    font-size: 16px;
+    font-weight:400;
+    color: #b0b0b2ff;
+}
